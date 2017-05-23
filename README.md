@@ -1,4 +1,4 @@
-# MY notes of learning pandas
+# MY playground for learning python, statistics, and machine learning
 #### Contents are organized by subjects, and displayed in jupyter notebooks.
 
 ## Vedios
