@@ -1,0 +1,22 @@
+amino_acids = {
+	'Ala' : ['Alanine', 'Ala', 'A', 'MW: 89.10', 'pI: 6.00'],
+	'Arg' : ['Arginine', 'Arg', 'R', 'MW: 174.20', 'pI: 10.76'],
+	'Asn' : ['Asparagine', 'Asn', 'N', 'MW: 132.12', 'pI: 5.41'],
+	'Asp' : ['Aspartic acid','Asp', 'D', 'MW: 133.11', 'pI: 2.77'],
+	'Cys' : ['Cysteine', 'Cys', 'C', 'MW: 121.16', 'pI:5.07'],
+	'Gln' : ['Glutamine','Gln', 'Q', 'MW: 146.15', 'pI: 5.65'],
+	'Glu' : ['Glutamic acid','Glu', 'E', 'MW: 147.13', 'pI: 3.22'],
+	'Gly' : ['Glycine', 'Gly', 'G', 'MW: 75.07', 'pI: 5.97'],
+	'His' : ['Histidine', 'His', 'H', 'MW: 155.16', 'pI: 7.59'],
+	'Ile' : ['Isoleucine', 'Ile','I', 'MW: 131.18', 'pI: 6.02'],
+	'Leu' : ['Leucine', 'Leu', 'L', 'MW: 131.18', 'pI: 5.98'],
+	'Lys' : ['Lysine', 'Lys', 'K', 'MW: 146.19', 'pI: 9.74'],
+	'Met' : ['Methionine', 'Met', 'M', 'MW: 149.21', 'pI: 5.74'],
+	'Phe' : ['Phenylalanine', 'Phe', 'F', 'MW: 165.19', 'pI: 5.48'],
+	'Pro' : ['Proline', 'Pro', 'P', 'MW: 115.13', 'pI: 6.30'],
+	'Ser' : ['Serine', 'Ser', 'S', 'MW: 105.09', 'pI: 5.68'],
+	'Thr' : ['Threonie', 'Thr', 'T', 'MW: 119.12', 'pI: 5.60'],
+	'Trp' : ['Tryptophan', 'Trp', 'W', 'MW: 204.23', 'pI: 5.89'],
+	'Tyr' : ['Tyrosine', 'Tyr', 'Y', 'MW: 181.19', 'pI: 5.66'],
+	'Val' : ['Valine', 'Val', 'V', 'MW: 117.15', 'pI: 5.96']
+	}
