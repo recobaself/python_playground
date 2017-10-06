@@ -20,5 +20,5 @@ def download(arr):
 
 if __name__ == '__main__':
     print('Hello World')
-    p = sys.argv[:]
+    p = sys.argv[1]
     print(p)
