@@ -19,6 +19,7 @@ def download(arr):
     print("Download completed!")
 
 if __name__ == '__main__':
-    print('Hello World')
+    # print('Hello World')
     p = sys.argv[1]
-    print(p)
+    # print(p)
+    download(parseFile(p))
