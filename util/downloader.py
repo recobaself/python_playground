@@ -20,3 +20,5 @@ def download(arr):
 
 if __name__ == '__main__':
     print('Hello World')
+    p = sys.args[:]
+    print(p)
