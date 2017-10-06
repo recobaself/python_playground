@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import urllib.request
 import sys
 
@@ -16,3 +17,6 @@ def download(arr):
         file_name = url.split('/')[-1]
         urllib.request.urlretrieve(url, file_name)
     print("Download completed!")
+
+if __name__ == '__main__':
+    print('Hello World')
