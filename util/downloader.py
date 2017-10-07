@@ -14,8 +14,12 @@ def parseFile(path):
 
 def download(arr):
     for url in arr:
-        file_name = url.split('/')[-1]
-        urllib.request.urlretrieve(url, file_name)
+        try:
+            file_name = url.split('/')[-1]
+            urllib.request.urlretrieve(url, file_name)
+            print(u"\u2713" + "   " + file_name + " downloaded ...")
+        except:
+            print("!!  Failed to download from " + url)
     print("Download completed!")
 
 if __name__ == '__main__':
