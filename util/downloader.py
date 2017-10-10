@@ -1,5 +1,6 @@
 #!/usr/bin/python
 import urllib.request
+#import urllib3.request in python2 and upgrade your requests
 import sys
 
 def parseFile(path):
@@ -17,6 +18,7 @@ def download(arr):
         try:
             file_name = url.split('/')[-1]
             urllib.request.urlretrieve(url, file_name)
+            #urllib3.request.urlretrieve(url, file_name)
             print(u"\u2713" + "   " + file_name + " downloaded ...")
         except:
             print("!!  Failed to download from " + url)
